@@ -50,7 +50,7 @@ Interactive dashboard visuals include:
 - Device-wise Churn Rates
 - Genre Popularity among Retained vs. Churned Users
 - Monthly watch hours distribution
-Power BI files & PDF exports are in the [`/Power_BI_Dashboard`](./Power_BI_Dashboard) folder.
+Power BI files & PDF exports are in the [`/Power-BI-Dashboard`](./Power-BI-Dashboard) folder.
 
 ## Conclusion
 - Retention is highest among **Premium plan & high-engagement users**.
