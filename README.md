@@ -39,7 +39,7 @@ Key Findings:
 - **Mobile-only users** had the highest churn rate.
 - **Drama & Action** genres retained more customers compared to niche genres.
 
-SQL scripts are available in the [`/Netflix Customer Churn.sql`](./SQL) folder.
+SQL scripts are available in the [`/SQL`](./SQL) folder.
 
 ## Power BI Dashboard
 Interactive dashboard visuals include:
@@ -48,7 +48,7 @@ Interactive dashboard visuals include:
 - Device-wise Churn Rates
 - Genre Popularity among Retained vs. Churned Users
 - Monthly watch hours distribution
-Power BI files & PDF exports are in the [`/netflix churn - dashboard.pbix`](./Power_BI_Dashboard) folder.
+Power BI files & PDF exports are in the [`/Power_BI_Dashboard`] folder.
 
 ## Conclusion
 - Retention is highest among **Premium plan & high-engagement users**.
