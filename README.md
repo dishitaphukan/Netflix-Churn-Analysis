@@ -24,6 +24,35 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
    - Created new columns:
      - `funnel_stage` —  Paid → Power → Churned
      - `engagement_level` — Low, Medium, High based on watch hours
-2. Imported cleaned data into **MySQL** for analysis
+2. Imported cleaned data into **MySQL Workbench** for analysis.
+
+## Analysis in SQL -
+Queries explored:
+- Distribution of churn across plan types
+- Churn rate by device type
+- Engagement level vs. churn probability
+- Most common genre among retained vs churned users
+
+Key Findings:
+- **Premium users** had higher retention compared to Basic & Standard.
+- **Low engagement** users churned more than high engagement users.
+- **Mobile-only users** had the highest churn rate.
+- **Drama & Action** genres retained more customers compared to niche genres.
+
+SQL scripts are available in the [`/Netflix Customer Churn.sql`](./SQL) folder.
+
+## Power BI Dashboard
+Interactive dashboard visuals include:
+- Churn % by Plan Type
+- Engagement Level Breakdown
+- Device-wise Churn Rates
+- Genre Popularity among Retained vs. Churned Users
+- Monthly watch hours distribution
+Power BI files & PDF exports are in the [`/netflix churn - dashboard.pbix`](./Power_BI_Dashboard) folder.
+
+## Conclusion
+- Retention is highest among **Premium plan & high-engagement users**.
+- Target churn reduction efforts toward **low engagement & mobile-only customers**.
+- Focus marketing on popular genres for at-risk segments.
 
 
