@@ -26,6 +26,8 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
      - `engagement_level` — Low, Medium, High based on watch hours
 2. Imported cleaned data into **MySQL Workbench** for analysis.
 
+Both the original and cleaned datasets are available in the [`/Data`](./Data) folder.
+
 ## Analysis in SQL -
 Queries explored:
 - Distribution of churn across plan types
@@ -48,7 +50,7 @@ Interactive dashboard visuals include:
 - Device-wise Churn Rates
 - Genre Popularity among Retained vs. Churned Users
 - Monthly watch hours distribution
-Power BI files & PDF exports are in the [`/Power_BI_Dashboard`] folder.
+Power BI files & PDF exports are in the [`/Power_BI_Dashboard`](./Power_BI_Dashboard) folder.
 
 ## Conclusion
 - Retention is highest among **Premium plan & high-engagement users**.
