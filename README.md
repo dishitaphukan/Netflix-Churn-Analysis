@@ -18,9 +18,9 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
   - `churned` — 1 if user left, 0 if retained
 
 ## Data Preparation -
-1. Cleaned dataset in **Excel**:
-   Removed duplicates & fixed missing values
-   Standardized text formatting
+1. Cleaned dataset in **Excel**: <br>
+   Removed duplicates & fixed missing values <br>
+   Standardized text formatting <br>
    Created new columns:
      - `funnel_stage` —  Paid → Power → Churned
      - `engagement_level` — Low, Medium, High based on watch hours
