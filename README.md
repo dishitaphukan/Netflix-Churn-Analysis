@@ -8,7 +8,7 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
 - Power BI (dashboard visualization)  
 
 ## 📂 Dataset -
-**Source:** Kaggle Netflix Customer Churn Dataset (1,000+ records)
+**Source:** Kaggle Netflix Customer Churn Dataset (1,000+ records) <br>
 **Key Columns:**
   - `user_id` — Unique identifier
   - `plan_type` — Basic, Standard, Premium
