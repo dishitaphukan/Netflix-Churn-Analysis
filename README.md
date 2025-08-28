@@ -8,8 +8,8 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
 - Power BI (dashboard visualization)  
 
 ## 📂 Dataset -
-- **Source:** Kaggle Netflix Customer Churn Dataset (1,000+ records)
-- **Key Columns:**
+**Source:** Kaggle Netflix Customer Churn Dataset (1,000+ records)
+**Key Columns:**
   - `user_id` — Unique identifier
   - `plan_type` — Basic, Standard, Premium
   - `device` — TV, Mobile, Tablet, Laptop
@@ -19,9 +19,9 @@ Analyzed Netflix customer churn data to identify trends in subscription types, e
 
 ## Data Preparation -
 1. Cleaned dataset in **Excel**:
-   - Removed duplicates & fixed missing values
-   - Standardized text formatting
-   - Created new columns:
+   Removed duplicates & fixed missing values
+   Standardized text formatting
+   Created new columns:
      - `funnel_stage` —  Paid → Power → Churned
      - `engagement_level` — Low, Medium, High based on watch hours
 2. Imported cleaned data into **MySQL Workbench** for analysis.
